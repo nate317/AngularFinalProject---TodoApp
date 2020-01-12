@@ -1,0 +1,16 @@
+{
+  "Todo": [
+    {
+      "id": 0,
+      "name": "Finish Final Project",
+      "time": "3 days",
+      "itemsNeeded": [
+        "brain",
+        "computer",
+        "notes",
+        "coding mentor"
+      ],
+      "description": "Just do it!"
+    }
+  ]
+}

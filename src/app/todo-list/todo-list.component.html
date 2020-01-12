@@ -1,0 +1,13 @@
+<h1>Todo App</h1>
+
+<div class="todoWrapper">
+  <div class="divider"></div>
+  <ul>
+    <li *ngFor="let todo of todos">
+      <p>
+        <a [routerLink]="['/edit', todo.id]" class="selectTodo">{{todo.name}}</a>
+        <button class="removeTodo" (click)="removeTodo(todo.id)">Remove</button>
+      </p>
+    </li>
+  </ul>
+</div>

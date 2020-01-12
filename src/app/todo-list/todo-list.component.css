@@ -1,0 +1,65 @@
+.todoWrapper {
+  border-bottom: 1px solid #efefef;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.removeWrapper {
+  display: inline-block;
+  border-bottom: 1px solid #efefef;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.removeTodo {
+  display: inline-block;
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  outline: none;
+  box-shadow: none;
+  border-width: 2px;
+  border-radius: 3px;
+  border-style: solid;
+  padding: 8px;
+  color: rgba(203, 20, 32, 0.4);
+  border-color: rgba(203, 20, 32, 0.4);
+  background-color: transparent;
+  font-size: medium;
+  font-weight: normal;
+}
+
+.selectTodo {
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  outline: none;
+  box-shadow: none;
+  border-width: 2px;
+  border-radius: 3px;
+  border-style: solid;
+  padding: 8px;
+  color: rgba(23, 165, 18, 0.74);
+  border-color: rgba(23, 165, 18, 0.74);
+  background-color: transparent;
+  font-size: medium;
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.divider {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid gray;
+  opacity: 20%;
+}

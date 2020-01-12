@@ -1,0 +1,23 @@
+<h1>Create Todo</h1>
+
+<form>
+  <div>
+      <label for="name">Todo Name: </label>
+      <input type="text" placeholder="Example" name="name" required [(ngModel)]="newTodo.name">
+  </div>
+  <div>
+      <label for="time">Time to Complete: </label>
+      <input type="text" placeholder="time to complete" name="time" required [(ngModel)]="newTodo.time">
+  </div>
+  <div>
+      <label for="itemsNeeded">List of Item's Needed: </label>
+      <input type="array" placeholder="item1, item2, item3" name="itemsNeeded" required [(ngModel)]="newTodo.itemsNeeded">
+  </div>
+  <div>
+      <label for="description">Description: </label>
+      <textarea type="text" placeholder="description of task" name="description" required [(ngModel)]="newTodo.description"></textarea>
+  </div>
+  <div>
+      <button type="submit" class="btn btn-primary" (click)="addTodo()">Submit</button>
+  </div>
+</form>
